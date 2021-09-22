@@ -10,9 +10,9 @@ public class Library {
     public Library() {
         this.books = new ArrayList<Book>();
         this.books.add(new Book("LOTR1", "Tolkien", 350, 0));
-        this.books.add(new Book("LOTRľ", "Tolkien", 360, 1));
+        this.books.add(new Book("LOTR2", "Tolkien", 360, 1));
         this.books.add(new Book("LOTR3", "Tolkien", 390, 2));
-        this.books.add(new Book("HP1", "Tolkien", 390, 3));
+        this.books.add(new Book("HP1", "Rowling", 390, 3));
         this.customers = new ArrayList<Customer>();
         this.customers.add(new Customer("John", "Dou", new Address("25ali", "5ave", "NY", "USA"), 0));
     }
@@ -58,7 +58,6 @@ public class Library {
     }
 
     public void changeCustomerAddress() {
-        // TODO: Check if customer exists
         listAllCustomers();
         System.out.print("ID of customer : ");
         int ID = sc.nextInt();

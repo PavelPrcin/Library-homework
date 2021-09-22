@@ -1,5 +1,4 @@
 import java.util.Date;
-import java.text.SimpleDateFormat;
 
 public class BorrowingItem {
     private Book book;

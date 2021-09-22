@@ -10,8 +10,8 @@ public class App {
         boolean loadInput = true;
 
         while (loadInput) {
-            System.out.println("1) Add new book to library \n 2) add new customer \n"
-                    + "3) change customer address \n 4) list all books 5) list all customers \n 6) list avaliable books \n 7) borrow book \n  8) return book \n 100) is over for program");
+            System.out.println("1) Add new book to library \n2) add new customer \n"
+                    + "3) change customer address \n4) list all books \n5) list all customers \n6) list avaliable books\n7) borrow book \n8) return book \n100) is over for program");
             System.out.print("Input: ");
             option = sc.nextInt();
             switch (option) {

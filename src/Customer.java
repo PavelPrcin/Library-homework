@@ -69,7 +69,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "{" + "ID =" + getId() + " firstName='" + getFirstName() + "'" + ", lastName='" + getLastName() + "'"
-                + ", address='" + getAddress() + "'" + "}";
+        return "ID =" + getId() + " firstName='" + getFirstName() + "'" + ", lastName='" + getLastName() + "'"
+                + ", address='" + getAddress();
     }
 }

@@ -45,8 +45,8 @@ public class Address {
 
     @Override
     public String toString() {
-        return "{" + " streetName='" + getStreetName() + "'" + ", streetNumber='" + getStreetNumber() + "'" + ", city='"
-                + getCity() + "'" + ", country='" + getCountry() + "'" + "}";
+        return "streetName='" + getStreetName() + "'" + ", streetNumber='" + getStreetNumber() + "'" + ", city='"
+                + getCity() + "'" + ", country='" + getCountry();
     }
 
 }

@@ -51,8 +51,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "{" + " name='" + getName() + "'" + ", author='" + getAuthor() + "'" + ", numberOfPages='"
-                + getNumberOfPages() + "'" + "}";
+        return " name='" + getName() + "', author='" + getAuthor() + "', numberOfPages=" + getNumberOfPages();
     }
 
 }
